@@ -1,0 +1,92 @@
+.friend-requests {
+  width: 350px;
+  max-height: 450px;
+  overflow-y: auto;
+  margin: 15px auto;
+  /* padding: 15px; */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  scrollbar-width: none;
+}
+
+.request-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #f0f0f0;
+  width: 100%;
+  gap: 1rem;
+}
+
+.request-item:last-child {
+  border-bottom: none;
+}
+
+.request-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+  object-fit: cover;
+}
+
+.request-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.request-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+  display: flex;
+  align-items: start;
+}
+
+.request-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.accept-btn,
+.reject-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+  width: 100px;
+}
+
+.accept-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.reject-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.accept-btn:hover {
+  background-color: #43a047;
+}
+
+.reject-btn:hover {
+  background-color: #d32f2f;
+}
+
+.no-requests {
+  text-align: center;
+  color: #888;
+  font-size: 15px;
+}
+.show{
+    width: 100%;
+}

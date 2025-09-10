@@ -1,0 +1,10 @@
+    .message-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 90vh;
+      background-color: #174eba;
+      padding: 1rem;
+      font-family: sans-serif;
+      width: 50%
+    }
