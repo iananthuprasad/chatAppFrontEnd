@@ -12,7 +12,7 @@ const FriendRequests = () => {
   ];
 
   return (
-    <div className="friend-requests">
+    <div className="search-friend-requests">
       {friendRequests.length > 0 ? (
         friendRequests.map((request) => (
           <div key={request.id} className="request-item">

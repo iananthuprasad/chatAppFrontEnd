@@ -1,0 +1,115 @@
+.search-friends {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  margin-top: 15px;
+}
+
+.search-input-container {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.search-input-container input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  min-width: 200px;
+}
+
+.search-btn {
+  background: #007bff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s;
+  min-width: 80px;
+}
+
+.search-btn:hover {
+  background: #0056b3;
+}
+
+/* .search-results {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+} */
+
+.search-request-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  margin: 12px 20px 12px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  gap: 1rem
+}
+
+.friend-card:hover {
+  background: #f1f1f1;
+}
+
+.friend-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.friend-info {
+  flex: 1;
+  margin-left: 12px;
+}
+
+.friend-info h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: start;
+}
+
+.friend-info p {
+  margin: 0;
+  font-size: 13px;
+  color: #777;
+  text-align: start;
+}
+
+.friend-action {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.friend-action.add {
+  color: #4caf50;
+}
+
+.friend-action.unfriend {
+  color: #f44336;
+}
+
+.friend-action:hover {
+  transform: scale(1.1);
+}
+
+.search-friend-requests {
+  width: 310px;
+  max-height: 350px;
+  overflow-y: auto;
+  margin: 15px auto;
+  /* padding: 15px; */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  scrollbar-width: none;
+}

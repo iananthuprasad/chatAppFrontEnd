@@ -1,14 +1,12 @@
 import './App.css'
-import Left from './components/Left/Left'
-import Chat from './components/Chat/Chat'
-import Right from './components/Right/Right'
+import Chatpage from './pages/Chatpage/Chatpage'
+import Profileupdate from './pages/Profileupdate/Profileupdate'
 
 function App() {
   return (
-    <div className='chat'>
-      <Left />
-      <Chat />
-      <Right />
+    <div className='login'>
+      <Chatpage />
+      {/* <Profileupdate /> */}
     </div>
   )
 }
